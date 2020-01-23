@@ -230,6 +230,13 @@ export class LienService {
       "From map tap take operators",
       Category.RXJS
     ),
+      new Lien(
+      "angular-joke-interpolation",
+      "Agular Joke/Troll interpolation ",
+      Category.RXJS
+    ),
+
+    
     new Lien(
       "rxjs-throwerror-catherror-operator",
       "CatchError ThrowError operators",
