@@ -60,7 +60,7 @@ export class LienService {
     ),
      new Lien(
       "angular-api-pipe-i18nselect-coderbase",
-      "Angular I18nSelectPipe Percent",
+      "Angular Pipe I18nSelect",
       Category.ANGULAR
     ),
 
