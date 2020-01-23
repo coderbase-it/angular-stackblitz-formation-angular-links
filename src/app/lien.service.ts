@@ -157,6 +157,14 @@ export class LienService {
       "Angular Custom Validator ReactiveForm isGreaterThanOtherField",
       Category.ANGULAR
     ),
+    
+    new Lien(
+      "ng-template-outlet-with-ng-content",
+      "Angular Ng Template Outlet with projection (ng-content)",
+      Category.ANGULAR
+    ),
+
+    
 
     new Lien("https://www.learnrxjs.io", "LearnRxJS.io", Category.RXJS),
     new Lien("https://rxmarbles.com", "RxMarbles.com", Category.RXJS),
@@ -171,6 +179,12 @@ export class LienService {
       "SwitchMap NgConf Vidéo",
       Category.RXJS
     ),
+    new Lien(
+      "angular-rxjs-coderbase-of",
+      "of operator",
+      Category.RXJS
+    ),
+    
     new Lien(
       "buffertoggle-rxjs-coderbase",
       "BufferToggle operator",
