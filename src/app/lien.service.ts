@@ -53,6 +53,12 @@ export class LienService {
       Category.ANGULAR
     ),
     new Lien(
+      "swiper-demo",
+      "Angular Swiper Demo",
+      Category.ANGULAR
+    ),
+    
+    new Lien(
       "native-theming-angular-cssvariables-coderbase",
       "Angular Native Theming CSS variable",
       Category.ANGULAR
