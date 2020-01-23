@@ -12,6 +12,8 @@ export class LienService {
   // check category.enum for Category Attribute
   liens: Lien[] = [
     new Lien("js-jcyrkq", "ES6", Category.JAVASCRIPT),
+    new Lien("es6-way-to-clone-an-array", "ES6 full", Category.JAVASCRIPT),
+
     new Lien(
       "affectations-destructuree-es6",
       "Affectation Desctructuré",
@@ -81,6 +83,11 @@ export class LienService {
     new Lien(
       "coderbase-angular-reactive-form-validation",
       "Angular Bootstrap Reactive Forms Validation",
+      Category.ANGULAR
+    ),
+    new Lien(
+      "translate-router",
+      "Angular POC NGX translate router urls",
       Category.ANGULAR
     ),
 
@@ -176,6 +183,13 @@ export class LienService {
     ),
 
     new Lien("bufferwhen-rxjs-coderbase", "BufferWhen operator", Category.RXJS),
+
+    new Lien(
+      "rxjs-fromevent-merge",
+      "FromEvent and Merge operator",
+      Category.RXJS
+    ),
+
     new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA),
     new Lien("akita-books-store-coderbase", "Akita Book Store", Category.AKITA)
   ];
