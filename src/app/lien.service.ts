@@ -122,7 +122,11 @@ export class LienService {
       "Angular Dynamic form builder other example",
       Category.ANGULAR
     ),
-    
+       new Lien(
+      "angular-pyramid",
+      "Angular pyramid with recursive",
+      Category.ANGULAR
+    ),
     new Lien(
       "angular-font-awesome-integration",
       "Angular FontAwesomeModule Integration",
