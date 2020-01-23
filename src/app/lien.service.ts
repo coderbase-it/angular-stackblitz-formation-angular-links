@@ -74,6 +74,12 @@ export class LienService {
       "Angular Native Theming CSS variable",
       Category.ANGULAR
     ),
+new Lien(
+      "angular-kingdom-dynamic-components-coderbase",
+      "Angular Kingdom Dynamic Components 🦄 🧟 🐉 🧙 ",
+      Category.ANGULAR
+    ),
+    
 
     new Lien("https://www.learnrxjs.io", "LearnRxJS.io", Category.RXJS),
     new Lien("https://rxmarbles.com", "RxMarbles.com", Category.RXJS),
