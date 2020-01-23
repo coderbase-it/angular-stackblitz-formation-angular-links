@@ -234,6 +234,18 @@ export class LienService {
       "Agular Joke/Troll interpolation ",
       Category.RXJS
     ),
+    
+
+     new Lien(
+      "angular-change-detection-strategy-onpush-coderbase",
+      "Agular Change detection 0 ",
+      Category.ANGULAR
+    ),
+         new Lien(
+      "    angular-change-detection-sample-2-coderbase",
+      "Agular Change detection 0bis ",
+      Category.ANGULAR
+    ),
 
        new Lien(
       "angular-cd-pp",
@@ -265,7 +277,11 @@ export class LienService {
     ),
 
     new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA),
-    new Lien("akita-books-store-coderbase", "Akita Book Store", Category.AKITA)
+    new Lien("akita-books-store-coderbase", "Akita Book Store", Category.AKITA),
+    new Lien("angular-ngxs-pizza-coderbase", "NGXS Pizza Store", Category.NGXS),
+    new Lien("angular-ngrx-chuck-norris-coderbase", "NGRX Chuck Norris Joke Store", Category.NGRX)
+    
+    
   ];
 
   constructor() {}

@@ -12,6 +12,7 @@ export enum Category {
   KENDO_REACT = 'Kendo React',
   OTHER = 'Other',
   AKITA = "Akita",
-  NGRX = "NGRX"
+  NGRX = "NGRX",
+  NGXS = "NGXS"
 }
 
