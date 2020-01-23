@@ -229,41 +229,27 @@ export class LienService {
       "From map tap take operators",
       Category.RXJS
     ),
-      new Lien(
+    new Lien(
       "angular-joke-interpolation",
       "Agular Joke/Troll interpolation ",
       Category.RXJS
     ),
-    
 
-     new Lien(
+    new Lien(
       "angular-change-detection-strategy-onpush-coderbase",
       "Agular Change detection 0 ",
       Category.ANGULAR
     ),
-         new Lien(
+    new Lien(
       "    angular-change-detection-sample-2-coderbase",
       "Agular Change detection 0bis ",
       Category.ANGULAR
     ),
 
-       new Lien(
-      "angular-cd-pp",
-      "Agular Change detection 1 ",
-      Category.ANGULAR
-    ),
-       new Lien(
-      "angular-cd-pp-2",
-      "Agular Change detection 2 ",
-      Category.ANGULAR
-    ),
-       new Lien(
-      "angular-cd-pp-3",
-      "Agular Change detection 3 ",
-      Category.ANGULAR
-    ),
+    new Lien("angular-cd-pp", "Agular Change detection 1 ", Category.ANGULAR),
+    new Lien("angular-cd-pp-2", "Agular Change detection 2 ", Category.ANGULAR),
+    new Lien("angular-cd-pp-3", "Agular Change detection 3 ", Category.ANGULAR),
 
-    
     new Lien(
       "rxjs-throwerror-catherror-operator",
       "CatchError ThrowError operators",
@@ -279,13 +265,23 @@ export class LienService {
     new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA),
     new Lien("akita-books-store-coderbase", "Akita Book Store", Category.AKITA),
     new Lien("angular-ngxs-pizza-coderbase", "NGXS Pizza Store", Category.NGXS),
-    new Lien("angular-ngrx-chuck-norris-coderbase", "NGRX Chuck Norris Joke Store", Category.NGRX),
-     new Lien("ngrx-8-playground-coderbase", "NGRX Playground", Category.NGRX),
-       new Lien("angular-form-ngrx-coderbase", "NGRX Form", Category.NGRX),
-   
-
-  
-    
+    new Lien(
+      "angular-ngrx-chuck-norris-coderbase",
+      "NGRX Chuck Norris Joke Store",
+      Category.NGRX
+    ),
+    new Lien("ngrx-8-playground-coderbase", "NGRX Playground", Category.NGRX),
+    new Lien("angular-form-ngrx-coderbase", "NGRX Form", Category.NGRX),
+    new Lien(
+      "angular-ngrx-count-example-coderbase",
+      "NGRX Count Example",
+      Category.NGRX
+    ),
+    new Lien(
+      "light-demo-for-ngrxstore-and-ngrxeffects",
+      "Light demo NGRX STORE and Effect",
+      Category.NGRX
+    )
     
   ];
 
