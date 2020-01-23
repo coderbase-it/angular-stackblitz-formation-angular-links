@@ -16,6 +16,8 @@ export class LienService {
     new Lien("rxjs-nwojyq", "Observable", Category.RXJS),
     new Lien("rxjs-nwojyq", "Subject", Category.RXJS),
     new Lien("rxjs-nwojyq", "BehaviorSubject", Category.RXJS),
+    new Lien("coderbaseui", "Coderbase-ui", 
+    Category.ANGULAR),
     new Lien("angular-unxnpa", "@Input", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Output", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Attribute", Category.ANGULAR),
@@ -34,6 +36,8 @@ export class LienService {
     new Lien("angular-unxnpa", "@HostBinding", Category.ANGULAR),
     new Lien("angular-unxnpa", "@HostListener", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Inject", Category.ANGULAR),
+    new Lien("angular-cdk-portal-tooltip-overlay", "Angular CDK portal Tooltip Overlay", 
+    Category.ANGULAR),
     new Lien("https://www.learnrxjs.io", "LearnRxJS.io", Category.RXJS),
     new Lien("https://rxmarbles.com", "RxMarbles.com", Category.RXJS),
     new Lien("https://rxviz.com", "Rxviz.com", Category.RXJS),
@@ -51,8 +55,8 @@ export class LienService {
       "buffertoggle-rxjs-coderbase",
       "BufferToggle operator",
       Category.RXJS
-    )
-    
+    ),
+    new Lien("bufferwhen-rxjs-coderbase", "BufferWhen operator", Category.RXJS)
   ];
 
   constructor() {}
