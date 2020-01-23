@@ -49,6 +49,8 @@ export class LogoDirective implements AfterViewInit {
       
       case Category.AKITA:
       return "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LDIcOEJiLYk8yWho34E%2Favatar.png?generation=1531386974984915&alt=media"
+      case Category.NGRX:
+      return "https://ngrx.io/assets/images/badge.svg"
       default: 
       return "https://www.ffe.com/var/ezwebin_site/storage/images/media/images/logo-et-visuels-divers/mails/lien-mail/404531-1-fre-FR/Lien-mail_imagelarge.png"
    

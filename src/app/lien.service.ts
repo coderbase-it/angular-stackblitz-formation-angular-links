@@ -94,7 +94,8 @@ export class LienService {
       Category.RXJS
     ),
     new Lien("bufferwhen-rxjs-coderbase", "BufferWhen operator", Category.RXJS),
-    new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA)
+    new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA),
+    new Lien("akita-books-store-coderbase", "Akita Book Store", Category.AKITA)
   ];
 
   constructor() {}

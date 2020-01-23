@@ -11,6 +11,7 @@ export enum Category {
   IGNITE_UI = 'Ignite Ui',
   KENDO_REACT = 'Kendo React',
   OTHER = 'Other',
-  AKITA = "Akita"
+  AKITA = "Akita",
+  NGRX = "NGRX"
 }
 
