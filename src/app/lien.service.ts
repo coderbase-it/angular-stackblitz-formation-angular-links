@@ -11,7 +11,6 @@ export class LienService {
   // new Lien('endOfStackblitz URL', 'NAME', Category.XXXX)
   // check category.enum for Category Attribute
   liens: Lien[] = [
-    new Lien("js-jcyrkq", "ES6", Category.JAVASCRIPT),
     new Lien("es6-way-to-clone-an-array", "ES6 full", Category.JAVASCRIPT),
 
     new Lien(
