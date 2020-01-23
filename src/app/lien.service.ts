@@ -12,12 +12,13 @@ export class LienService {
   // check category.enum for Category Attribute
   liens: Lien[] = [
     new Lien("js-jcyrkq", "ES6", Category.JAVASCRIPT),
+
+    new Lien("objectassign-js", "Object Assign", Category.JAVASCRIPT),
     new Lien("typescript-qytgzf", "Typescript Example", Category.TYPESCRIPT),
     new Lien("rxjs-nwojyq", "Observable", Category.RXJS),
     new Lien("rxjs-nwojyq", "Subject", Category.RXJS),
     new Lien("rxjs-nwojyq", "BehaviorSubject", Category.RXJS),
-    new Lien("coderbaseui", "Coderbase-ui", 
-    Category.ANGULAR),
+    new Lien("coderbaseui", "Coderbase-ui", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Input", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Output", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Attribute", Category.ANGULAR),
@@ -36,8 +37,29 @@ export class LienService {
     new Lien("angular-unxnpa", "@HostBinding", Category.ANGULAR),
     new Lien("angular-unxnpa", "@HostListener", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Inject", Category.ANGULAR),
-    new Lien("angular-cdk-portal-tooltip-overlay", "Angular CDK portal Tooltip Overlay", 
-    Category.ANGULAR),
+    new Lien(
+      "angular-cdk-portal-tooltip-overlay",
+      "Angular CDK portal Tooltip Overlay",
+      Category.ANGULAR
+    ),
+    new Lien(
+      "angular-font-awesome-integration",
+      "Angular FontAwesomeModule Integration",
+      Category.ANGULAR
+    ),
+    new Lien(
+      "angular-themeing-ng-coderbase",
+      "Angular CSS variable --mavar theming",
+      Category.ANGULAR
+    ),
+    new Lien(
+      "native-theming-angular-cssvariables-coderbase",
+      "Angular Native Theming CSS variable",
+      Category.ANGULAR
+    ),
+    
+    
+    
     new Lien("https://www.learnrxjs.io", "LearnRxJS.io", Category.RXJS),
     new Lien("https://rxmarbles.com", "RxMarbles.com", Category.RXJS),
     new Lien("https://rxviz.com", "Rxviz.com", Category.RXJS),
