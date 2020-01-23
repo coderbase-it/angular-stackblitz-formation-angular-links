@@ -26,7 +26,7 @@ export class LienService {
       Category.JAVASCRIPT
     ),
     new Lien("objectassign-js", "Object Assign", Category.JAVASCRIPT),
-    new Lien("typescript-qytgzf", "Typescript Example", Category.TYPESCRIPT),
+    new Lien("typescript-basic-coderbase", "Typescript Basic", Category.TYPESCRIPT),
 
     new Lien("rxjs-init-observable-coderbase", "Observable", Category.RXJS),
     new Lien("rxjs-nwojyq", "of and map operators", Category.RXJS),
