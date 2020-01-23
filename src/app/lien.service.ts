@@ -12,6 +12,8 @@ export class LienService {
   // check category.enum for Category Attribute
   liens: Lien[] = [
     new Lien("js-jcyrkq", "ES6", Category.JAVASCRIPT),
+    new Lien("affectations-destructuree-es6", "Affectation Desctructuré", Category.JAVASCRIPT),
+    
     new Lien(
       "es6-class-import-export",
       "Class import/export",
@@ -19,9 +21,11 @@ export class LienService {
     ),
     new Lien("objectassign-js", "Object Assign", Category.JAVASCRIPT),
     new Lien("typescript-qytgzf", "Typescript Example", Category.TYPESCRIPT),
-    new Lien("rxjs-nwojyq", "Observable", Category.RXJS),
+     
+    new Lien("rxjs-init-observable-coderbase", "Observable", Category.RXJS),
+    new Lien("rxjs-nwojyq", "of and map operators", Category.RXJS),
     new Lien("rxjs-nwojyq", "Subject", Category.RXJS),
-    new Lien("rxjs-nwojyq", "BehaviorSubject", Category.RXJS),
+    new Lien("rxjs-behaviorsubject-example-coderbase", "BehaviorSubject", Category.RXJS),
     new Lien("coderbaseui", "Coderbase-ui", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Input", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Output", Category.ANGULAR),
