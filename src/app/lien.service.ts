@@ -79,6 +79,12 @@ new Lien(
       "Angular Kingdom Dynamic Components 🦄 🧟 🐉 🧙 ",
       Category.ANGULAR
     ),
+    new Lien(
+      "angular-kingdom-advanced-projection-coderbase",
+      "Angular Kingdom Projection 🦄 🐉 ",
+      Category.ANGULAR
+    ),
+    
     
 
     new Lien("https://www.learnrxjs.io", "LearnRxJS.io", Category.RXJS),
