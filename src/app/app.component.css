@@ -1,0 +1,14 @@
+p {
+  font-family: Lato;
+}
+img{
+  width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+li.link{
+  cursor: pointer
+}
+li.link:hover{
+  background: lightblue;
+}
