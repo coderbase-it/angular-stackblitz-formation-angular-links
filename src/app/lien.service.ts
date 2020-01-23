@@ -26,7 +26,11 @@ export class LienService {
       Category.JAVASCRIPT
     ),
     new Lien("objectassign-js", "Object Assign", Category.JAVASCRIPT),
-    new Lien("typescript-basic-coderbase", "Typescript Basic", Category.TYPESCRIPT),
+    new Lien(
+      "typescript-basic-coderbase",
+      "Typescript Basic",
+      Category.TYPESCRIPT
+    ),
 
     new Lien("rxjs-init-observable-coderbase", "Observable", Category.RXJS),
     new Lien("rxjs-nwojyq", "of and map operators", Category.RXJS),
@@ -116,13 +120,12 @@ export class LienService {
       Category.ANGULAR
     ),
 
-
     new Lien(
       "angular-dynamic-form-builder-other-example",
       "Angular Dynamic form builder other example",
       Category.ANGULAR
     ),
-       new Lien(
+    new Lien(
       "angular-pyramid",
       "Angular pyramid with recursive",
       Category.ANGULAR
@@ -211,7 +214,29 @@ export class LienService {
       Category.RXJS
     ),
 
+    new Lien(
+      "rxjs-from-event-stars-coderbase",
+      "FromEvent map (stars ) operator",
+      Category.RXJS
+    ),
+     new Lien(
+      "rxjs-observabe-async-vs-sync",
+      "Async vs sync",
+      Category.RXJS
+    ),
+    new Lien(
+      "rxjs-of-vs-from-coderbase",
+      "Of vs From operators",
+      Category.RXJS
+    ),
+
     
+    
+    new Lien(
+      "rxjs-observable-vs-subject-coderbase",
+      "Observable vs Subject",
+      Category.RXJS
+    ),
 
     new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA),
     new Lien("akita-books-store-coderbase", "Akita Book Store", Category.AKITA)
