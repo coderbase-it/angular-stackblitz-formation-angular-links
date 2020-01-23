@@ -63,6 +63,21 @@ export class LienService {
       "Angular Pipe I18nSelect",
       Category.ANGULAR
     ),
+         new Lien(
+      "angular-version-service-observable",
+      "Angular Version Service observable",
+      Category.ANGULAR
+    ),
+      new Lien(
+      "coderbase-angular-breadcrumb-demo",
+      "Angular Breadcrumd example",
+      Category.ANGULAR
+    ),
+
+    
+
+
+    
        new Lien(
       "angular-api-pipe-decimal-coderbase",
       "Angular Pipe Decimal",
