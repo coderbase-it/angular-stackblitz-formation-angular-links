@@ -115,6 +115,14 @@ export class LienService {
       "Angular CDK portal Tooltip Overlay",
       Category.ANGULAR
     ),
+
+
+    new Lien(
+      "angular-dynamic-form-builder-other-example",
+      "Angular Dynamic form builder other example",
+      Category.ANGULAR
+    ),
+    
     new Lien(
       "angular-font-awesome-integration",
       "Angular FontAwesomeModule Integration",
@@ -157,14 +165,12 @@ export class LienService {
       "Angular Custom Validator ReactiveForm isGreaterThanOtherField",
       Category.ANGULAR
     ),
-    
+
     new Lien(
       "ng-template-outlet-with-ng-content",
       "Angular Ng Template Outlet with projection (ng-content)",
       Category.ANGULAR
     ),
-
-    
 
     new Lien("https://www.learnrxjs.io", "LearnRxJS.io", Category.RXJS),
     new Lien("https://rxmarbles.com", "RxMarbles.com", Category.RXJS),
@@ -179,12 +185,9 @@ export class LienService {
       "SwitchMap NgConf Vidéo",
       Category.RXJS
     ),
-    new Lien(
-      "angular-rxjs-coderbase-of",
-      "of operator",
-      Category.RXJS
-    ),
-    
+    new Lien("angular-rxjs-coderbase-of", "of operator", Category.RXJS),
+    new Lien("angular-rxjs-coderbase-from", "from operator", Category.RXJS),
+
     new Lien(
       "buffertoggle-rxjs-coderbase",
       "BufferToggle operator",
@@ -203,6 +206,8 @@ export class LienService {
       "FromEvent and Merge operator",
       Category.RXJS
     ),
+
+    
 
     new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA),
     new Lien("akita-books-store-coderbase", "Akita Book Store", Category.AKITA)
