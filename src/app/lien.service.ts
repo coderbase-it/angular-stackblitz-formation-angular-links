@@ -279,7 +279,12 @@ export class LienService {
     new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA),
     new Lien("akita-books-store-coderbase", "Akita Book Store", Category.AKITA),
     new Lien("angular-ngxs-pizza-coderbase", "NGXS Pizza Store", Category.NGXS),
-    new Lien("angular-ngrx-chuck-norris-coderbase", "NGRX Chuck Norris Joke Store", Category.NGRX)
+    new Lien("angular-ngrx-chuck-norris-coderbase", "NGRX Chuck Norris Joke Store", Category.NGRX),
+     new Lien("ngrx-8-playground-coderbase", "NGRX Playground", Category.NGRX),
+       new Lien("angular-form-ngrx-coderbase", "NGRX Form", Category.NGRX),
+   
+
+  
     
     
   ];
