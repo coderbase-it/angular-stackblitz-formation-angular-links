@@ -84,6 +84,14 @@ new Lien(
       "Angular Kingdom Projection 🦄 🐉 ",
       Category.ANGULAR
     ),
+    new Lien(
+      "angular-onpushc2d-coderbase",
+      "Change Detection MarkForCheck/OnPush object attribute change",
+      Category.ANGULAR
+    ),
+
+
+    
     
     
 
