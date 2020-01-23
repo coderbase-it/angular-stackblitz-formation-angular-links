@@ -46,7 +46,13 @@ export class LienService {
       "https://www.youtube.com/watch?v=rUZ9CjcaCEw",
       "SwitchMap NgConf Vidéo",
       Category.RXJS
+    ),
+    new Lien(
+      "buffertoggle-rxjs-coderbase",
+      "BufferToggle operator",
+      Category.RXJS
     )
+    
   ];
 
   constructor() {}
