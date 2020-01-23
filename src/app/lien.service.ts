@@ -12,7 +12,11 @@ export class LienService {
   // check category.enum for Category Attribute
   liens: Lien[] = [
     new Lien("js-jcyrkq", "ES6", Category.JAVASCRIPT),
-    new Lien("es6-class-import-export", "Class import/export", Category.JAVASCRIPT),
+    new Lien(
+      "es6-class-import-export",
+      "Class import/export",
+      Category.JAVASCRIPT
+    ),
     new Lien("objectassign-js", "Object Assign", Category.JAVASCRIPT),
     new Lien("typescript-qytgzf", "Typescript Example", Category.TYPESCRIPT),
     new Lien("rxjs-nwojyq", "Observable", Category.RXJS),
@@ -37,7 +41,17 @@ export class LienService {
     new Lien("angular-unxnpa", "@HostBinding", Category.ANGULAR),
     new Lien("angular-unxnpa", "@HostListener", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Inject", Category.ANGULAR),
-    new Lien("angular-directive-form-errors-generic", "Angular Directive Form Errors Generic", Category.ANGULAR),
+    new Lien(
+      "angular-directive-form-errors-generic",
+      "Angular Directive Form Errors Generic",
+      Category.ANGULAR
+    ),
+    new Lien(
+      "angular-manual-dynamic-form-config",
+      "Angular Manual Dynamic Form Config",
+      Category.ANGULAR
+    ),
+
     new Lien(
       "angular-cdk-portal-tooltip-overlay",
       "Angular CDK portal Tooltip Overlay",
@@ -79,7 +93,8 @@ export class LienService {
       "BufferToggle operator",
       Category.RXJS
     ),
-    new Lien("bufferwhen-rxjs-coderbase", "BufferWhen operator", Category.RXJS)
+    new Lien("bufferwhen-rxjs-coderbase", "BufferWhen operator", Category.RXJS),
+    new Lien("akita-todos-app-coderbase", "Akita Todo App", Category.AKITA)
   ];
 
   constructor() {}

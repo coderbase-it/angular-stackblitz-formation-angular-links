@@ -10,6 +10,7 @@ export enum Category {
   ANGULARJS = 'Angular Js',
   IGNITE_UI = 'Ignite Ui',
   KENDO_REACT = 'Kendo React',
-  OTHER = 'Other'
+  OTHER = 'Other',
+  AKITA = "Akita"
 }
 

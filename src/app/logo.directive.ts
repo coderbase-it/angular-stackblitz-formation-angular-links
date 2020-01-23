@@ -45,6 +45,10 @@ export class LogoDirective implements AfterViewInit {
 
       case Category.REACT_TS:
         return "https://c.staticblitz.com/assets/media/client/homepage/images/stack_icons/react-ts-8ff03c3af545dbf56c6adc1e9e145646.png";
+      
+      
+      case Category.AKITA:
+      return "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LDIcOEJiLYk8yWho34E%2Favatar.png?generation=1531386974984915&alt=media"
       default: 
       return "https://www.ffe.com/var/ezwebin_site/storage/images/media/images/logo-et-visuels-divers/mails/lien-mail/404531-1-fre-FR/Lien-mail_imagelarge.png"
    
