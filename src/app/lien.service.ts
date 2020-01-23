@@ -89,6 +89,19 @@ new Lien(
       "Change Detection MarkForCheck/OnPush object attribute change",
       Category.ANGULAR
     ),
+     new Lien(
+      "angular-simple-movie-example",
+      "Angular Simple Movie app",
+      Category.ANGULAR
+    ),
+    new Lien(
+      "isgreaterthanotherfield-custom-validator-angular-coderbase",
+      "Angular Custom Validator ReactiveForm isGreaterThanOtherField",
+      Category.ANGULAR
+    ),
+    
+
+    
 
 
     
