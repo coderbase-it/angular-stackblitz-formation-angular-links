@@ -236,6 +236,22 @@ export class LienService {
       Category.RXJS
     ),
 
+       new Lien(
+      "angular-cd-pp",
+      "Agular Change detection 1 ",
+      Category.ANGULAR
+    ),
+       new Lien(
+      "angular-cd-pp-2",
+      "Agular Change detection 2 ",
+      Category.ANGULAR
+    ),
+       new Lien(
+      "angular-cd-pp-3",
+      "Agular Change detection 3 ",
+      Category.ANGULAR
+    ),
+
     
     new Lien(
       "rxjs-throwerror-catherror-operator",
