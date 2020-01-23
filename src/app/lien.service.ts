@@ -219,26 +219,23 @@ export class LienService {
       "FromEvent map (stars ) operator",
       Category.RXJS
     ),
-     new Lien(
-      "rxjs-observabe-async-vs-sync",
-      "Async vs sync",
-      Category.RXJS
-    ),
+    new Lien("rxjs-observabe-async-vs-sync", "Async vs sync", Category.RXJS),
     new Lien(
       "rxjs-of-vs-from-coderbase",
       "Of vs From operators",
       Category.RXJS
     ),
-      new Lien(
+    new Lien(
       "rxjs-from-map-tap-take",
       "From map tap take operators",
       Category.RXJS
     ),
+    new Lien(
+      "rxjs-throwerror-catherror-operator",
+      "CatchError ThrowError operators",
+      Category.RXJS
+    ),
 
-    
-
-    
-    
     new Lien(
       "rxjs-observable-vs-subject-coderbase",
       "Observable vs Subject",
