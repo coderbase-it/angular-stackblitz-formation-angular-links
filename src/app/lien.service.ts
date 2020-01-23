@@ -84,6 +84,15 @@ export class LienService {
       Category.ANGULAR
     ),
 
+
+       new Lien(
+      "coderbase-crm-proto",
+      "Coderbase Crm Proto",
+      Category.ANGULAR
+    ),
+
+    
+
     
 
     new Lien(
