@@ -58,6 +58,11 @@ export class LienService {
       "Angular Pipe Percent",
       Category.ANGULAR
     ),
+     new Lien(
+      "angular-api-pipe-i18nselect-coderbase",
+      "Angular I18nSelectPipe Percent",
+      Category.ANGULAR
+    ),
 
     new Lien(
       "angular-directive-form-errors-generic",
