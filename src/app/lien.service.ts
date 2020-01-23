@@ -229,6 +229,13 @@ export class LienService {
       "Of vs From operators",
       Category.RXJS
     ),
+      new Lien(
+      "rxjs-from-map-tap-take",
+      "From map tap take operators",
+      Category.RXJS
+    ),
+
+    
 
     
     
