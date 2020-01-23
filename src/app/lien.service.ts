@@ -63,6 +63,13 @@ export class LienService {
       "Angular Pipe I18nSelect",
       Category.ANGULAR
     ),
+       new Lien(
+      "angular-api-pipe-decimal-coderbase",
+      "Angular Pipe Decimal",
+      Category.ANGULAR
+    ),
+
+    
 
     new Lien(
       "angular-directive-form-errors-generic",
