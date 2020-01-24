@@ -42,7 +42,7 @@ export class LienService {
     new Lien("coderbaseui", "Coderbase-ui", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Input", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Output", Category.ANGULAR),
-    new Lien("angular-unxnpa", "@Attribute", Category.ANGULAR),
+    new Lien("angular-ngif-ngcontainer-click", "*ngIf | ng-container | (click) | interpolation", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Injectable", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Optional", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Pipe", Category.ANGULAR),
