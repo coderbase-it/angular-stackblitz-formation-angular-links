@@ -43,6 +43,8 @@ export class LienService {
     new Lien("angular-unxnpa", "@Input", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Output", Category.ANGULAR),
     new Lien("angular-ngif-ngcontainer-click", "*ngIf | ng-container | (click) | interpolation", Category.ANGULAR),
+    new Lien("angular-pipe-async-coderbase", "Pipe Async", Category.ANGULAR),
+    
     new Lien("angular-unxnpa", "@Injectable", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Optional", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Pipe", Category.ANGULAR),
