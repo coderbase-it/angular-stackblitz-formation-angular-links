@@ -53,6 +53,10 @@ export class LogoDirective implements AfterViewInit {
       return "https://ngrx.io/assets/images/badge.svg"
       case Category.NGXS:
       return "https://avatars2.githubusercontent.com/u/37132593?s=280&v=4"
+      case Category.ARTICLE:
+      return "https://blog.jmtalarn.com/logos/logo.black.svg"
+      case Category.SITE:
+      return "https://image.flaticon.com/icons/png/512/117/117965.png"
       default: 
       return "https://www.ffe.com/var/ezwebin_site/storage/images/media/images/logo-et-visuels-divers/mails/lien-mail/404531-1-fre-FR/Lien-mail_imagelarge.png"
    

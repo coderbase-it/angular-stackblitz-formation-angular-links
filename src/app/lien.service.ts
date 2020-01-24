@@ -283,7 +283,18 @@ export class LienService {
       "light-demo-for-ngrxstore-and-ngrxeffects",
       "Light demo NGRX STORE and Effect",
       Category.NGRX
+    ),
+ new Lien(
+      "https://indepth.dev/he-who-thinks-change-detection-is-depth-first-and-he-who-thinks-its-breadth-first-are-both-usually-right/",
+      "Change Detection is Depth",
+      Category.ARTICLE
+    ),
+    new Lien(
+      "https://indepth.dev/angular/",
+      "Angular indepth.dev",
+      Category.SITE
     )
+
     
   ];
 

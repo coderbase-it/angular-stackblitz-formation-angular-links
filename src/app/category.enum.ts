@@ -13,6 +13,8 @@ export enum Category {
   OTHER = 'Other',
   AKITA = "Akita",
   NGRX = "NGRX",
-  NGXS = "NGXS"
+  NGXS = "NGXS",
+  ARTICLE = "Article",
+  SITE = "Site"
 }
 
