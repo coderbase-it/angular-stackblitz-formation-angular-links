@@ -294,7 +294,12 @@ export class LienService {
       "Angular indepth.dev",
       Category.SITE
     )
-
+,
+    new Lien(
+      "00-angular-renderer-component-append",
+      "00 Angular renderer Component",
+      Category.ANGULAR
+    )
     
   ];
 
