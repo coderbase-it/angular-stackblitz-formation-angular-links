@@ -310,6 +310,11 @@ export class LienService {
       "angula-8-view-encapsulation",
       "angula 8 view-encapsulation",
       Category.ANGULAR
+    ),
+    new Lien(
+      "angular-shadowdom-view-encapsulation",
+      "angular shadowdom view-encapsulation",
+      Category.ANGULAR
     )
     
   ];
