@@ -305,6 +305,11 @@ export class LienService {
       "00-angular-renderer-component-append",
       "00 Angular renderer Component",
       Category.ANGULAR
+    ),
+    new Lien(
+      "angula-8-view-encapsulation",
+      "angula 8 view-encapsulation",
+      Category.ANGULAR
     )
     
   ];
