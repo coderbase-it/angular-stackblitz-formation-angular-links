@@ -173,6 +173,13 @@ export class LienService {
       "Angular Custom Validator ReactiveForm isGreaterThanOtherField",
       Category.ANGULAR
     ),
+    new Lien(
+      "angular-simple-count-observable",
+      "Angular Simple Observable Version",
+      Category.ANGULAR
+    ),
+
+
 
     new Lien(
       "ng-template-outlet-with-ng-content",
