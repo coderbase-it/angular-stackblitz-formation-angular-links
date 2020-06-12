@@ -18,7 +18,14 @@ export class LienService {
       "Affectation Desctructuré",
       Category.JAVASCRIPT
     ),
+    
+    new Lien(
+      "ngx-translate-quickstart",
+      "Ngx Translate Quickstart",
+      Category.ANGULAR
+    ),
 
+ 
     new Lien(
       "es6-class-import-export",
       "Class import/export",
