@@ -24,6 +24,11 @@ export class LienService {
       "Ngx Translate Quickstart",
       Category.ANGULAR
     ),
+    new Lien(
+      "angular-ivy-hostbinding-class-new-behavior",
+      "@hostbinding new behavior",
+      Category.ANGULAR
+    ),
 
  
     new Lien(
