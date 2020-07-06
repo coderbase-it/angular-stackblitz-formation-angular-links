@@ -19,6 +19,11 @@ export class LienService {
       Category.JAVASCRIPT
     ),
     
+new Lien(
+      "js-es6-spread-rest-operator",
+      "JS ES6 Spread et rest operator Méthode add ",
+      Category.JAVASCRIPT
+    ),
     new Lien(
       "ngx-translate-quickstart",
       "Ngx Translate Quickstart",
