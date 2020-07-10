@@ -3,6 +3,7 @@ import { Lien } from "./lien";
 import { Category } from "./category.enum";
 import { from, of, zip } from "rxjs";
 import { groupBy, map, mergeMap, toArray, tap } from "rxjs/operators";
+import { customOp } from "./custom-operator";
 
 @Injectable()
 export class LienService {
@@ -18,6 +19,11 @@ export class LienService {
       "Affectation Desctructuré",
       Category.JAVASCRIPT
     ),
+       new Lien(
+      "angular-ivy-hostbinding-class-new-behavior",
+      "@hostbinding new behavior",
+      Category.ANGULAR
+    ),
     
 new Lien(
       "js-es6-spread-rest-operator",
@@ -29,11 +35,7 @@ new Lien(
       "Ngx Translate Quickstart",
       Category.ANGULAR
     ),
-    new Lien(
-      "angular-ivy-hostbinding-class-new-behavior",
-      "@hostbinding new behavior",
-      Category.ANGULAR
-    ),
+ 
 
  
     new Lien(
@@ -343,21 +345,12 @@ new Lien(
     
   ];
 
-  constructor() {}
+  constructor() {} 
 
   // Don't touch this function until u know RXJS enough
   get list() {
     return from(this.liens).pipe(
-      groupBy(lien => lien.category),
-      mergeMap(group => group.pipe(toArray())),
-      map(data => {
-        return {
-          category: data[0].category,
-          liens: data
-        };
-      }),
-      toArray()
-      //tap(console.log)
+      customOp()
     );
   }
 }
