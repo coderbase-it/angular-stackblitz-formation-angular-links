@@ -19,13 +19,18 @@ export class LienService {
       "Affectation Desctructuré",
       Category.JAVASCRIPT
     ),
-       new Lien(
+    new Lien(
       "angular-ivy-hostbinding-class-new-behavior",
       "@hostbinding new behavior",
       Category.ANGULAR
     ),
-    
-new Lien(
+    new Lien(
+      "angular-ivy-fruits-ninja-changedectection",
+      "Fruits ninja changedectection",
+      Category.ANGULAR
+    ),
+
+    new Lien(
       "js-es6-spread-rest-operator",
       "JS ES6 Spread et rest operator Méthode add ",
       Category.JAVASCRIPT
@@ -35,9 +40,7 @@ new Lien(
       "Ngx Translate Quickstart",
       Category.ANGULAR
     ),
- 
 
- 
     new Lien(
       "es6-class-import-export",
       "Class import/export",
@@ -61,9 +64,13 @@ new Lien(
     new Lien("coderbaseui", "Coderbase-ui", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Input", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Output", Category.ANGULAR),
-    new Lien("angular-ngif-ngcontainer-click", "*ngIf | ng-container | (click) | interpolation", Category.ANGULAR),
+    new Lien(
+      "angular-ngif-ngcontainer-click",
+      "*ngIf | ng-container | (click) | interpolation",
+      Category.ANGULAR
+    ),
     new Lien("angular-pipe-async-coderbase", "Pipe Async", Category.ANGULAR),
-    
+
     new Lien("angular-unxnpa", "@Injectable", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Optional", Category.ANGULAR),
     new Lien("angular-unxnpa", "@Pipe", Category.ANGULAR),
@@ -198,8 +205,6 @@ new Lien(
       Category.ANGULAR
     ),
 
-
-
     new Lien(
       "ng-template-outlet-with-ng-content",
       "Angular Ng Template Outlet with projection (ng-content)",
@@ -273,12 +278,11 @@ new Lien(
       "Agular Change detection 0bis ",
       Category.ANGULAR
     ),
-        new Lien(
+    new Lien(
       "angular-validation-i18n-engine",
       "Agular Validation Engine I18n Error Form Builder Class validators",
       Category.ANGULAR
     ),
-    
 
     new Lien("angular-cd-pp", "Agular Change detection 1 ", Category.ANGULAR),
     new Lien("angular-cd-pp-2", "Agular Change detection 2 ", Category.ANGULAR),
@@ -316,7 +320,7 @@ new Lien(
       "Light demo NGRX STORE and Effect",
       Category.NGRX
     ),
- new Lien(
+    new Lien(
       "https://indepth.dev/he-who-thinks-change-detection-is-depth-first-and-he-who-thinks-its-breadth-first-are-both-usually-right/",
       "Change Detection is Depth",
       Category.ARTICLE
@@ -325,8 +329,7 @@ new Lien(
       "https://indepth.dev/angular/",
       "Angular indepth.dev",
       Category.SITE
-    )
-,
+    ),
     new Lien(
       "00-angular-renderer-component-append",
       "00 Angular renderer Component",
@@ -342,15 +345,12 @@ new Lien(
       "angular shadowdom view-encapsulation",
       Category.ANGULAR
     )
-    
   ];
 
-  constructor() {} 
+  constructor() {}
 
   // Don't touch this function until u know RXJS enough
   get list() {
-    return from(this.liens).pipe(
-      customOp()
-    );
+    return from(this.liens).pipe(customOp());
   }
 }
