@@ -13,7 +13,7 @@ export class LienService {
   // check category.enum for Category Attribute
   liens: Lien[] = [
     new Lien("es6-way-to-clone-an-array", "ES6 full", Category.JAVASCRIPT),
-
+ new Lien("transloco-plus-pipe", "Transloco start + pipe", Category.ANGULAR),
     new Lien(
       "affectations-destructuree-es6",
       "Affectation Desctructuré",
