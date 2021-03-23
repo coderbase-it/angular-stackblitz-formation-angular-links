@@ -19,6 +19,13 @@ export class LienService {
       "Affectation Desctructuré",
       Category.JAVASCRIPT
     ),
+     new Lien(
+      "angular-ivy-renderer2-directive",
+      "Angular renderer2 Directive",
+      Category.ANGULAR
+    ),
+
+
     new Lien(
       "angular-ivy-hostbinding-class-new-behavior",
       "@hostbinding new behavior",
